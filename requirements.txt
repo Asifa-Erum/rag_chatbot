@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+openai
+qdrant-client
+langchain
+langchain-openai
+langchain-qdrant
+langchain-text-splitters
+tiktoken
+requests
+beautifulsoup4
+lxml
