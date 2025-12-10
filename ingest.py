@@ -101,7 +101,7 @@ def scrape_page_content(url: str) -> str:
     """Reads the content from a local file path derived from a URL."""
     # Convert the URL to a local file path
     # The base URL from the sitemap needs to be replaced by the local build directory
-    base_url = "https://physical-ai-book-one.vercel.app"
+    base_url = "https://physical-ai-book-1.vercel.app"
     local_base_path = Path(__file__).parent.parent / "handbook-site/build"
     
     # Create a relative path from the URL
