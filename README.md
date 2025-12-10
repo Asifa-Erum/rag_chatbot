@@ -159,7 +159,7 @@ def load_config():
 
 config = load_config()
 
-SITEMAP_URL = "https://physical-ai-humanoid-robotics-book-two.vercel.app/sitemap.xml"
+SITEMAP_URL = "https://physical-ai-book-1.vercel.app/"
 QDRANT_COLLECTION_NAME = config["QDRANT_COLLECTION_NAME"]
 
 CHUNK_SIZE = 1000
